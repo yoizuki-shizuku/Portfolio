@@ -1,0 +1,49 @@
+{
+    "RequiredTime" : 7.0,
+    "Loop" : false,
+    "Relative" : true,
+
+    "Move" : [
+        {
+            "StartPosX" : 0.0,  
+            "StartPosY" : 0.0,
+            "EndPosX" : 0.0,
+            "EndPosY" : -130.0,
+            "StartTime" : 6.0,
+            "EndTime" : 6.5,
+            "Easing" : 5
+        },
+        {
+            "StartPosX" : 0.0,  
+            "StartPosY" : -130.0,
+            "EndPosX" : 0.0,
+            "EndPosY" : -130.0,
+            "StartTime" : 6.99,
+            "EndTime" : 7.0,
+            "Easing" : 0
+        }
+    ],
+
+    "Rotation" : [
+    ],
+
+    "Scale" : [
+    ],
+
+    "Alpha" : [
+        {
+            "StartAlpha" : 0.0,
+            "EndAlpha" : 1.0,
+            "StartTime" : 3.9,
+            "EndTime" : 4.0,
+            "Easing" : 0
+        },
+        {
+            "StartAlpha" : 0.0,
+            "EndAlpha" : 1.0,
+            "StartTime" : 6.99,
+            "EndTime" : 7.0,
+            "Easing" : 0
+        }
+    ]
+}

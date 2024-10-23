@@ -1,0 +1,26 @@
+{
+    "RequiredTime" : 0.8,
+    "Loop" : false,
+    "Relative" : true,
+
+    "Move" : [
+        {
+            "StartPosX" : 0.0,  
+            "StartPosY" : 0.0,
+            "EndPosX" : -300.0,
+            "EndPosY" : 0.0,
+            "StartTime" : 0.0,
+            "EndTime" : 0.8,
+            "Easing" : 11
+        }
+    ],
+
+    "Rotation" : [
+    ],
+
+    "Scale" : [
+    ],
+
+    "Alpha" : [
+    ]
+}
