@@ -1,0 +1,21 @@
+{
+  "Stage": [
+    {
+      "OneShot": false,
+      "Time": 0,
+      "TryCount": 0
+    },
+    {
+      "OneShot": false,
+      "Time": 0,
+      "TryCount": 0
+    },
+    {
+      "OneShot": false,
+      "Time": 0,
+      "TryCount": 0
+    }
+  ],
+  "VolumeBGM": 0.20000000298023224,
+  "VolumeSE": 1
+}
