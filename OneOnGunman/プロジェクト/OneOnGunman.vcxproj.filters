@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>2340cee1-e619-4eb2-a845-ed1fda06f1ec</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>77dd4f6d-167c-4eca-863f-5b0effcc2daf</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{421afaf5-a1da-4217-9d68-b97530bfa5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{90499b10-5617-459f-872e-7ba0b8450c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene">
+      <UniqueIdentifier>{7978a683-893f-4d95-b34f-a96914149397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{3d7848e5-aa9f-4139-92ca-6d82c285939c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{41138b6a-0827-4010-9589-19790dc3dba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Transition">
+      <UniqueIdentifier>{03547d1e-043b-4e1e-956f-5c36bd639c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{11675c09-fa8f-4e46-97eb-a75a54e3aae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\StageObject">
+      <UniqueIdentifier>{32bbeeee-0708-46a7-82a5-dd4108f1a5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Observer">
+      <UniqueIdentifier>{8d46f856-64c4-493d-b92a-ccde78f33a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Player">
+      <UniqueIdentifier>{8be88c40-a79d-4237-a5f2-fee4b3be2c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy">
+      <UniqueIdentifier>{d83f49d5-b2f2-407f-821c-4817faefc273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Player\State">
+      <UniqueIdentifier>{55fb9210-5e6f-4940-bf8b-562e70f99588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy\Enemies">
+      <UniqueIdentifier>{778cf75c-d6df-4e83-bb4a-5c547b199ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy\Bullets">
+      <UniqueIdentifier>{bf3a8073-2a62-4b5a-b7a3-6fd9737d82b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\UserInterface">
+      <UniqueIdentifier>{58bb28b8-9d5c-40cf-a9ea-5bb8950b6a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\UserInterface">
+      <UniqueIdentifier>{22a967cb-d8e4-47e7-b3c4-10edb854dbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StageSelectScene">
+      <UniqueIdentifier>{969a8360-a91d-4d37-86b1-876e23b37254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene\TitleUIs">
+      <UniqueIdentifier>{3345ac76-29b7-4727-aed2-e531eb35b8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\UserInterface\UIAnimation">
+      <UniqueIdentifier>{2b923758-bcd9-4ceb-bdd1-f9fcc9fab732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\GlitchEffect">
+      <UniqueIdentifier>{b65ba713-a836-4da2-981b-5e07cac0edc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Effect">
+      <UniqueIdentifier>{6128c058-156e-47c3-82f8-24628b62d951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\UI">
+      <UniqueIdentifier>{1361d77a-1108-4e42-8d87-09708244951d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StageSelectScene\Model">
+      <UniqueIdentifier>{038d99b4-e7c7-4134-90f0-fd971f1919e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Hologram">
+      <UniqueIdentifier>{ed0023bd-7f61-465b-abae-725b2fbe5490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene">
+      <UniqueIdentifier>{539f4aef-89c0-4cf4-a7c8-b0cc9e5af9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Numeral">
+      <UniqueIdentifier>{f191b1f6-f769-486d-aec0-0fce76fcdcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene\UIs">
+      <UniqueIdentifier>{cc1147cc-b1cd-457c-b332-2eb5001b372e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\InfinitePlane">
+      <UniqueIdentifier>{1835dd43-6a93-46e3-85aa-59dbd72c0275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostProcess">
+      <UniqueIdentifier>{a91649bb-ba9f-4e44-8475-d14117cc8bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\BehaviourTree">
+      <UniqueIdentifier>{e33517f0-8239-4872-85bd-636dc02f014f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\BulletEffect">
+      <UniqueIdentifier>{d0c883eb-85c9-4cc2-9005-d216736f782a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SaveData">
+      <UniqueIdentifier>{463dc0e5-2517-482e-a41d-27afb69b2d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Audio">
+      <UniqueIdentifier>{8bee96ab-e1a7-4f28-967e-d460fb1eec69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ChargeEffect">
+      <UniqueIdentifier>{e9c4f9c7-f629-442f-af57-f0edacaed045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\OptionScene">
+      <UniqueIdentifier>{65a8f1bd-56c2-47fa-81da-1c5789f35a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\OptionScene\UI">
+      <UniqueIdentifier>{f253748b-ba8e-4486-b033-f32d4013cf2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Camera.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Easing.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Input.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Transition.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\UserResources.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene\TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\PlayScene.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Useful.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\StageObject\SkySphere.h">
+      <Filter>Scene\PlayScene\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\StageObject\Floor.h">
+      <Filter>Scene\PlayScene\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\PlaySceneCamera.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Loading.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Observer\Observer.h">
+      <Filter>Scene\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Observer\Subject.h">
+      <Filter>Scene\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\Player.h">
+      <Filter>Scene\PlayScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Enemy.h">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\EnemyBullet.h">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\PlayerBullet.h">
+      <Filter>Scene\PlayScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\State\Idle.h">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\State\Run.h">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\State\State.h">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\State\Shot.h">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Enemies\Guardian.h">
+      <Filter>Scene\PlayScene\Enemy\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Bullets\NormalBullet.h">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\EnemyBulletManager.h">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\UserInterface.h">
+      <Filter>Scene\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\UIAnimation.h">
+      <Filter>Scene\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelectScene\StageSelectScene.h">
+      <Filter>Scene\StageSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\Animator.h">
+      <Filter>Scene\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\State\Dodge.h">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Player\State\Die.h">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="picojson.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene\TitleUIs\PleaseLeftClick.h">
+      <Filter>Scene\TitleScene\TitleUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\UIAnimation\AlphaAnimation.h">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\UIAnimation\MoveAnimation.h">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\UIAnimation\RotationAnimation.h">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\UIAnimation\ScaleAnimation.h">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene\TitleUIs\TitleButtonManager.h">
+      <Filter>Scene\TitleScene\TitleUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\Button.h">
+      <Filter>Scene\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\GlitchEffect.h">
+      <Filter>Scene\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Effect\LandingEffect.h">
+      <Filter>Scene\PlayScene\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\UI\BeginEvent.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\UI\FinishEvent.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\UI\Bar.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Effect\Shadow.h">
+      <Filter>Scene\PlayScene\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene\ResultScene.h">
+      <Filter>Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UserInterface\Numeral.h">
+      <Filter>Scene\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene\UIs\ResultButtonManager.h">
+      <Filter>Scene\ResultScene\UIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene\UIs\ClearTime.h">
+      <Filter>Scene\ResultScene\UIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene\UIs\ShotCount.h">
+      <Filter>Scene\ResultScene\UIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelectScene\Model\Hologram.h">
+      <Filter>Scene\StageSelectScene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelectScene\Model\HologramManager.h">
+      <Filter>Scene\StageSelectScene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Enemies\Collector.h">
+      <Filter>Scene\PlayScene\Enemy\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Enemies\Invader.h">
+      <Filter>Scene\PlayScene\Enemy\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelectScene\Model\InfinitePlane.h">
+      <Filter>Scene\StageSelectScene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collider.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BehaviourTree\BehaviourTree.h">
+      <Filter>Scene\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BehaviourTree\TreeManager.h">
+      <Filter>Scene\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Bullets\TorpedoBullet.h">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Bullets\HomingBullet.h">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelectScene\Information.h">
+      <Filter>Scene\StageSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\UI\MoveUI.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\UI\MouseUI.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\UI\Pause.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SaveData\SaveData.h">
+      <Filter>Scene\SaveData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Audio\AudioManager.h">
+      <Filter>Scene\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Effect\ChargeEffect.h">
+      <Filter>Scene\PlayScene\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene\Enemy\Bullets\WaveBullet.h">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\OptionScene\OptionScene.h">
+      <Filter>Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Audio\BGM.h">
+      <Filter>Scene\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Audio\OneOnGunman_acf.h">
+      <Filter>Scene\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Audio\SE.h">
+      <Filter>Scene\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\OptionScene\UI\Volume.h">
+      <Filter>Scene\OptionScene\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Camera.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Input.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Transition.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\UserResources.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene\TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\PlayScene.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\StageObject\SkySphere.cpp">
+      <Filter>Scene\PlayScene\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\StageObject\Floor.cpp">
+      <Filter>Scene\PlayScene\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\PlaySceneCamera.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Loading.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Observer\Observer.cpp">
+      <Filter>Scene\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Observer\Subject.cpp">
+      <Filter>Scene\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\Player.cpp">
+      <Filter>Scene\PlayScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Enemy.cpp">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\EnemyBullet.cpp">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\PlayerBullet.cpp">
+      <Filter>Scene\PlayScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\State\Idle.cpp">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\State\Run.cpp">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\State\State.cpp">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\State\Shot.cpp">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Enemies\Guardian.cpp">
+      <Filter>Scene\PlayScene\Enemy\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Bullets\NormalBullet.cpp">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\EnemyBulletManager.cpp">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\UserInterface.cpp">
+      <Filter>Scene\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelectScene\StageSelectScene.cpp">
+      <Filter>Scene\StageSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\Animator.cpp">
+      <Filter>Scene\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\State\Dodge.cpp">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Player\State\Die.cpp">
+      <Filter>Scene\PlayScene\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene\TitleUIs\PleaseLeftClick.cpp">
+      <Filter>Scene\TitleScene\TitleUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\UIAnimation\AlphaAnimation.cpp">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\UIAnimation\MoveAnimation.cpp">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\UIAnimation\RotationAnimation.cpp">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\UIAnimation\ScaleAnimation.cpp">
+      <Filter>Scene\UserInterface\UIAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene\TitleUIs\TitleButtonManager.cpp">
+      <Filter>Scene\TitleScene\TitleUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\Button.cpp">
+      <Filter>Scene\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\GlitchEffect.cpp">
+      <Filter>Scene\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Effect\LandingEffect.cpp">
+      <Filter>Scene\PlayScene\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\UI\BeginEvent.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\UI\FinishEvent.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\UI\Bar.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Effect\Shadow.cpp">
+      <Filter>Scene\PlayScene\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelectScene\Model\Hologram.cpp">
+      <Filter>Scene\StageSelectScene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene\ResultScene.cpp">
+      <Filter>Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UserInterface\Numeral.cpp">
+      <Filter>Scene\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene\UIs\ResultButtonManager.cpp">
+      <Filter>Scene\ResultScene\UIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene\UIs\ClearTime.cpp">
+      <Filter>Scene\ResultScene\UIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene\UIs\ShotCount.cpp">
+      <Filter>Scene\ResultScene\UIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelectScene\Model\HologramManager.cpp">
+      <Filter>Scene\StageSelectScene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Enemies\Collector.cpp">
+      <Filter>Scene\PlayScene\Enemy\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Enemies\Invader.cpp">
+      <Filter>Scene\PlayScene\Enemy\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelectScene\Model\InfinitePlane.cpp">
+      <Filter>Scene\StageSelectScene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collider.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BehaviourTree\BehaviourTree.cpp">
+      <Filter>Scene\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BehaviourTree\TreeManager.cpp">
+      <Filter>Scene\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Bullets\TorpedoBullet.cpp">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Bullets\HomingBullet.cpp">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelectScene\Information.cpp">
+      <Filter>Scene\StageSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\UI\MoveUI.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\UI\MouseUI.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\UI\Pause.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Enemy\Bullets\WaveBullet.cpp">
+      <Filter>Scene\PlayScene\Enemy\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SaveData\SaveData.cpp">
+      <Filter>Scene\SaveData</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Audio\AudioManager.cpp">
+      <Filter>Scene\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene\Effect\ChargeEffect.cpp">
+      <Filter>Scene\PlayScene\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\OptionScene\OptionScene.cpp">
+      <Filter>Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\OptionScene\UI\Volume.cpp">
+      <Filter>Scene\OptionScene\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shader\Transition\Transition.hlsli">
+      <Filter>Shader\Transition</Filter>
+    </None>
+    <None Include="Shader\UserInterface\UserInterface.hlsli">
+      <Filter>Shader\UserInterface</Filter>
+    </None>
+    <None Include="Shader\GlitchEffect\GlitchEffect.hlsli">
+      <Filter>Shader\GlitchEffect</Filter>
+    </None>
+    <None Include="Shader\Hologram\Hologram.hlsli">
+      <Filter>Shader\Hologram</Filter>
+    </None>
+    <None Include="Shader\Numeral\Numeral.hlsli">
+      <Filter>Shader\Numeral</Filter>
+    </None>
+    <None Include="Shader\InfinitePlane\InfinitePlane.hlsli">
+      <Filter>Shader\InfinitePlane</Filter>
+    </None>
+    <None Include="Shader\BulletEffect\BulletEffect.hlsli">
+      <Filter>Shader\BulletEffect</Filter>
+    </None>
+    <None Include="Shader\BulletEffect\Function.hlsli">
+      <Filter>Shader\BulletEffect</Filter>
+    </None>
+    <None Include="Shader\BulletEffect\EnemyBullet.hlsli">
+      <Filter>Shader\BulletEffect</Filter>
+    </None>
+    <None Include="Shader\ChargeEffect\ChargeEffect.hlsli">
+      <Filter>Shader\ChargeEffect</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="FBX\SkyShpere.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Helipad.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Robot_Guardian.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Robot_Invader.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Robot_Collector.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\ScifiHandGun_Baked_Maps.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\Transition\TransitionPS.hlsl">
+      <Filter>Shader\Transition</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Transition\TransitionVS.hlsl">
+      <Filter>Shader\Transition</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\UserInterface\UserInterfaceGS.hlsl">
+      <Filter>Shader\UserInterface</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\UserInterface\UserInterfacePS.hlsl">
+      <Filter>Shader\UserInterface</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\UserInterface\UserInterfaceVS.hlsl">
+      <Filter>Shader\UserInterface</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\GlitchEffect\GlitchEffectGS.hlsl">
+      <Filter>Shader\GlitchEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\GlitchEffect\GlitchEffectPS.hlsl">
+      <Filter>Shader\GlitchEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\GlitchEffect\GlitchEffectVS.hlsl">
+      <Filter>Shader\GlitchEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Hologram\HologramPS.hlsl">
+      <Filter>Shader\Hologram</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Hologram\HologramVS.hlsl">
+      <Filter>Shader\Hologram</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Numeral\NumeralPS.hlsl">
+      <Filter>Shader\Numeral</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Numeral\NumeralVS.hlsl">
+      <Filter>Shader\Numeral</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Numeral\NumeralGS.hlsl">
+      <Filter>Shader\Numeral</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\InfinitePlane\InfinitePlanePS.hlsl">
+      <Filter>Shader\InfinitePlane</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\InfinitePlane\InfinitePlaneVS.hlsl">
+      <Filter>Shader\InfinitePlane</Filter>
+    </FxCompile>
+    <FxCompile Include="CathodeRayTube.hlsl">
+      <Filter>Shader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PostProcess\Monochrome.hlsl">
+      <Filter>Shader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\AuraVS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\AuraPS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\BulletEffectVS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\ThuderPS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\LuminousPS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\EnemyBulletVS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BulletEffect\EnemyBulletPS.hlsl">
+      <Filter>Shader\BulletEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\ChargeEffect\ChargeEffectPS.hlsl">
+      <Filter>Shader\ChargeEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\ChargeEffect\ChargeEffectVS.hlsl">
+      <Filter>Shader\ChargeEffect</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
